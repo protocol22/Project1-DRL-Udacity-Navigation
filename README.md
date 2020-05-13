@@ -34,4 +34,4 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Solution
 
-The agent is solved using a deep q network refer to 'dqn_agent.py' for the algorithm, the neural network model used for this purpose is given in the file 'Model.py' and the solution can be found in `Navigation.ipynb` along with trained weights in 'checkpoint.pth'  
+The agent is solved using a deep q network refer to `dqn_agent.py` for the algorithm, the neural network model used for this purpose is given in the file `model.py` and the solution can be found in `Navigation.ipynb` along with trained weights in `checkpoint.pth`  
