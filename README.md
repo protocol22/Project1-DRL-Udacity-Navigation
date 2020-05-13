@@ -30,8 +30,8 @@ The task is episodic, and in order to solve the environment, your agent must get
     
     (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
-    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
+2. Place the extracted file in the home director of the repository and run the model using the `Navigation.ipynb` file
 
-2. Place the file in the DRLND GitHub repository [click here](https://github.com/udacity/deep-reinforcement-learning.git), in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+### Solution
 
-
+The agent is solved using a deep q network refer to 'dqn_agent.py' for the algorithm, the neural network model used for this purpose is given in the file 'Model.py' and the solution can be found in `Navigation.ipynb` along with trained weights in 'checkpoint.pth'  
